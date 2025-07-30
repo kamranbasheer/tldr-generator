@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    background: #f8f8f8;
+    text-align: center;
+}
+
+textarea {
+    width: 80%;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.output {
+    margin-top: 2rem;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: left;
+    width: 60%;
+}

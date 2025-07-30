@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TL;DR Generator</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>TL;DR Generator 🧠</h1>
+    <form method="POST">
+        <textarea name="text" placeholder="Paste your text here..." rows="10" cols="80" required></textarea><br>
+        <button type="submit">Summarize</button>
+    </form>
+    {% if summary %}
+        <h2>Summary:</h2>
+        <div class="output">{{ summary }}</div>
+    {% endif %}
+</body>
+</html>
