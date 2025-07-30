@@ -37,3 +37,37 @@ A simple web app that lets you paste text and get a concise, AI-generated summar
 ```bash
 git clone https://github.com/yourusername/tldr-generator.git
 cd tldr-generator
+````
+
+2. **Install dependencies**
+
+```bash
+pip install -r requirements.txt
+```
+
+3. **Run the app**
+
+```bash
+python app.py
+```
+
+Visit `http://127.0.0.1:5000` in your browser.
+
+---
+
+## 📄 Example Usage
+
+Paste the following paragraph:
+
+> Artificial Intelligence is transforming industries... *(etc.)*
+
+Click **Summarize** → Get your **TL;DR**!
+
+---
+
+## 🧪 To-Do (Want to Contribute?)
+
+* [ ] Add URL summarization
+* [ ] Support different summary styles (tweet, bullets, haiku)
+* [ ] Add a CLI tool
+* [ ] Dockerize the app
